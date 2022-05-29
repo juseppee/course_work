@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="theoryOne">The algebra of logic is one of the main branches of mathematical logic, in which the methods of algebra are used in logical transformations.
+
+The founder of the algebra of logic is the English mathematician and logician J. Boole (1815–1864), who based his logical doctrine on the analogy between algebra and logic. He wrote down any statement using the symbols of the language he developed and received “equations”, the truth or falsity of which could be proved based on certain logical laws, such as the laws of commutativity, distributivity, associativity, etc.
+
+Modern logical algebra is a branch of mathematical logic and studies logical operations on propositions in terms of their truth value (true, false). Statements can be true, false, or contain truth and falsehood in different proportions.
+
+A logical proposition is any declarative sentence about which it can be unequivocally stated that its content is true or false.
+
+For example, “3 times 3 equals 9”, “Arkhangelsk north of Vologda” are true statements, and “Five is less than three”, “Mars is a star” are false.
+
+Obviously, not every sentence can be a logical statement, because it does not always make sense to talk about its falsity or truth. For example, the statement “Computer science is an interesting subject” is vague and requires additional information, and the statement “For a student of grade 10-A Ivanov A. A. computer science is an interesting subject”, depending on the interests of Ivanov A. A., can take the value “true” or "False".
+
+In addition to the two-valued propositional algebra, in which only two values ​​are accepted - "true" and "false", there is a many-valued propositional algebra. In such an algebra, in addition to the meanings "true" and "false", such truth values ​​as "probably", "possible", "impossible", etc. are used.
+
+In the algebra of logic, simple (elementary) statements are distinguished, denoted by Latin letters (A, B, C, D, ...), and complex (composite), made up of several simple ones using logical connectives, for example, such as “not”, “and ”, “or”, “if and only then”, “if ... then”. The truth or falsity of the complex statements thus obtained is determined by the meaning of the simple statements.
+
+Let us designate as A the statement "The algebra of logic is successfully applied in the theory of electrical circuits", and through B - "The algebra of logic is used in the synthesis of relay-contact circuits."
+
+Then the compound statement "The algebra of logic is successfully applied in the theory of electrical circuits and in the synthesis of relay-contact circuits" can be briefly written as A and B; here "and" is a logical connective. Obviously, since the elementary propositions A and B are true, the compound propositions A and B are also true.
+
+Each logical connective is considered as an operation on logical statements and has its own name and designation.
+
+There are only two logical values: true (TRUE) and false (FALSE). This corresponds to the digital representation - 1 and 0. The results of each logical operation can be recorded in the form of a table. Such tables are called truth tables.</string>
+<string name="theoryTwo" tools:ignore="StringEscaping">"In the twenties of the 20th century, the famous German mathematician Hilbert (1862–1943, Fig. 2.14), a German mathematician universal, came up with a program to substantiate mathematics on the basis of mathematical logic.
+Hilbert, around whom a school of brilliant followers had developed by that time, in a whole series
+works outlined a plan for research in the field of the foundations of mathematics, which later received the name
+"Göttingen Program".
+In the most simplified form, it can be stated as follows: mathematics can be represented as a set of consequences derived from a certain system of axioms, and it can be proved that:
+1. Mathematics is complete, i.e. any mathematical statement can be
+prove or disprove, based on the rules of the discipline itself.
+2. Mathematics is consistent, that is, it is impossible to prove and simultaneously disprove any statement without violating the accepted rules
+reasoning.
+3. Mathematics is decidable, i.e., using the rules, you can find out for any mathematical statement whether it is provable
+or refutable.
+In fact, Hilbert's program sought to develop some general procedure for answering all mathematical questions, or at least proving the existence of one.
+The scientist himself was confident in the affirmative answer to all three questions he formulated: in his opinion, mathematics was indeed complete, consistent and solvable. All that remained was to prove it.
+Since that time, the modern stage in the development of mathematical logic begins, characterized by the use of exact mathematical methods in the study of formal axiomatic theories.
+Note that the role of logical calculus as a means of discovering new truths
+even in the field of mathematics for a long time remained more than modest. But the symbolic language of mathematical logic turned out to be a very important tool in the study of the logical foundations of mathematics on the border of the nineteenth and twentieth centuries,
+because it made it possible to avoid any inaccuracy of thought, which easily slips when using words of ordinary language, the meaning of which is not given in exact
+definition, but the creation of a habit for the accepted word usage. Gödel's theorems
+Principia Mathematica, the work of Russell and Whitehead, rigorously grounded mathematics on the basis of logic, but the surprises were found in the logic itself.
+For any mathematical theory defined by a set of axioms, two questions arise: is the theory consistent and complete.
+The consistency of the theory means that, making logical consequences from the axioms,
+we get only true statements. Completeness means that all are true
+the statements of a theory can be deduced from its axioms.
+Rice. 2.15 – Kurt Gödel
+In 1931, Kurt Gödel (1996–1978, Figure 2.15) —
+Austrian logician and mathematician - proved that an infinite number of mathematical statements are true, but cannot be proven from
+from the axioms of Principia Mathematica. He also established
+that an attempt to reduce mathematics to a consistent system of axioms gives the same result: there is
+an infinite number of mathematical truths, called undecidable statements, that are unprovable using this system.
+This result, called the incompleteness theorem, immediately put Gödel among the great mathematicians of the 20th century.
+The second result, the consistency theorem, states that the consistency of any axiomatic theory cannot be proved by means of
+the theory itself.
+In essence, Gödel's incompleteness theorem buried Leibniz's hopes that there was a logical method that could calculate the answer to all scientific
+questions. Logic, at least in its present form, is insufficient to prove
+every mathematical truth, especially any truth in our world.
+Gödel's theorems showed that Hilbert's Göttingen program was unrealizable.
+Rice. 2.16 – Jan Lukasiewicz
+Non-classical logic
+The reduction of mathematics and logic to a small list of axioms naturally raised the question: what will happen,
+if the original axioms are different?
+For example, to allow statements to have not only two truth values ​​"true" and "false", but
+and the third meaning expressed by the words "perhaps"
+(“probably”, “neutral”). In other words, to abandon the axiom "Law of the excluded middle" (cf.
+chapter 6). The ancient Greeks considered failure to do so
+law by an unthinkable violation of logical reasoning, but the description of logic simply as axiomatic
+system (theory) made this possible.
+In 1917, Jan Lukasiewicz (1878–1956, fig. 2.16), a Polish logician, was
+the first who began to consider many-valued logics, introducing the third truth
+meaning "possible". In such logic it is possible to determine the truth values ​​of statements like the following. The addition of the meaning "possible" to "true" and "false" was the first radical departure from classical logic - all the logic that was
+before. A new branch of logic arose—nonclassical logic (see [1]).
+The era of computers
+The appearance of computers is associated with the development of such a section of mathematical
+logic as a theory of algorithms"</string>
+
+</resources>

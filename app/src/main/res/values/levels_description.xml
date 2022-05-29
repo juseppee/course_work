@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="levelone">Solve logical expressions and choose the correct answer from the proposed answers (A =  1, B = 1, C = 0)</string>
+    <string name="leveloneEnd">Congratulations! \n You\'ve passed first level</string>
+    <string name="leveltwoEnd">Congratulations! \n You\'ve passed second level</string>
+    <string name="leveltwo">Insert missing X value</string>
+    <string name="levelthree">Welcome to LogicGame!\n\nFirstly, you need to read some theory :)</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Logic Game</string>
+    <string name="start">Start</string>
+    <string name="settings">Settings</string>
+    <string name="changeMusic">Change music</string>
+    <string name="changeBckg">Change background</string>
+    <string name="chooseMode">Choose game \n mode</string>
+    <string name="playClassic">Classic mode</string>
+    <string name="playLogic">Only tasks</string>
+    <string name="readTheory">Only theory</string>
+    <string name="levels">Levels</string>
+    <string name="level">Level</string>
+    <string name="continGame">Continue</string>
+    <string name="startTask">Start task</string>
+    <string name="startTasks">Start tasks</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="moreTheory">More theory</string>
+</resources>

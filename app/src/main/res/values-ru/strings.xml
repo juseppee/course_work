@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Логическая игра</string>
+    <string name="start">Начать</string>
+    <string name="settings">Настройки</string>
+    <string name="changeMusic">Поменять музыку</string>
+    <string name="changeBckg">Поменять фон</string>
+    <string name="chooseMode">Выбор режима игры</string>
+    <string name="playClassic">Классический режим</string>
+    <string name="playLogic">Только задания</string>
+    <string name="readTheory">Только теория</string>
+    <string name="levels">Уровни</string>
+    <string name="level">Уровень:</string>
+    <string name="level2">Уровень 2</string>
+    <string name="startTask">Приступить к заданию</string>
+    <string name="continGame">Продолжить</string>
+    <string name="startTasks">Приступить к заданиям</string>
+    <string name="level3">Уровень 3</string>
+    <string name="moreTheory">Больше теории</string>
+</resources>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background_set" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="550dp"
+        android:fontFamily="@font/fontofkindness"
+        android:text="@string/levels"
+        android:textSize="46sp"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="278dp">
+
+        <LinearLayout
+            android:id="@+id/container_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/container_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/container_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lineOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewOne"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThree"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewFour"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewFive"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineTwo"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSix"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewSeven"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewEight"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewNine"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewEleven"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwelve"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewFourteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewFifteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineFour"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSixteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewSeventeen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewEighteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewNineteen"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwenty"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewTwentyOne"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyTwo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyThree"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyFour"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyFive"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineSix"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewTwentySix"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentySeven"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyEight"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewTwentyNine"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirty"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lineSeven"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewThirtyOne"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirtyTwo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirtyThree"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirtyFour"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textViewThirtyFive"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_levels"
+                            android:fontFamily="@font/fontofkindness"
+                            android:gravity="center"
+                            android:text="x"
+                            android:textColor="@color/white"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
